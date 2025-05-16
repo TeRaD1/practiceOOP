@@ -1,6 +1,7 @@
 package ex3.domain;
 
 import ex2.domain.EnergyData;
+import ex2.domain.EnergyCalculator;
 
 /**
  * Фабрика для створення об'єктів кінетичної енергії та їх відображень.
@@ -17,7 +18,10 @@ public class KineticEnergyFactory implements EnergyFactory {
      */
     @Override
     public EnergyData createEnergy(double mass, double velocity) {
-        return new EnergyData(mass, velocity);
+        EnergyData data = new EnergyData(mass, velocity);
+        EnergyCalculator calculator = new EnergyCalculator(data);
+        calculator.calculate(); 
+        return data;
     }
 
     /**
