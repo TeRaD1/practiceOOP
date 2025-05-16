@@ -66,4 +66,14 @@ public class TableDisplay implements Displayable {
 
         return header + "\n" + row;
     }
+
+    /**
+     * Повертає масу об'єкта.
+     *
+     * @return маса
+     */
+    @Override
+    public double getMass() {
+        return data.getMass();
+    }
 }

@@ -55,4 +55,31 @@ public class EnergyDataDisplay implements Displayable, Serializable {
     public EnergyData getData() {
         return data;
     }
+
+    /**
+     * Повертає масу.
+     * 
+     * @return маса
+     */
+    public double getMass() {
+        return data.getMass();
+    }
+
+    /**
+     * Повертає швидкість.
+     * 
+     * @return швидкість
+     */
+    public double getVelocity() {
+        return data.getVelocity();
+    }
+
+    /**
+     * Повертає енергію.
+     * 
+     * @return енергія
+     */
+    public double getEnergy() {
+        return data.getEnergy();
+    }
 }

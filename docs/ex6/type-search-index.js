@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ex6.domain","l":"CommandWorker"},{"p":"ex6.test","l":"ParallelAndWorkerTest"},{"p":"ex6.domain","l":"ParallelProcessor"}]

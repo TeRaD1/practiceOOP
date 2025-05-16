@@ -15,4 +15,10 @@ public interface Displayable {
      * @return відформатований текстовий результат.
      */
     String getFormattedResult();
+
+    /**
+     * Повертає масу об'єкта.
+     * @return маса.
+     */
+    double getMass();
 }
