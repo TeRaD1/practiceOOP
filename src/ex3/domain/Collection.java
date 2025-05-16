@@ -76,4 +76,12 @@ public class Collection implements Serializable {
             System.out.println(line);
         }
     }
+    /**
+     * Видаляє останній доданий елемент з колекції.
+     */
+    public void removeLast() {
+        if (!dataList.isEmpty()) {
+            dataList.remove(dataList.size() - 1);
+        }
+    }
 }
