@@ -1,7 +1,8 @@
-package test;
+package ex2.test;
 
-import domain.EnergyData;
-import domain.EnergyCalculator;
+import ex2.domain.EnergyData;
+import ex2.domain.EnergyCalculator;
+
 
 import java.io.*;
 

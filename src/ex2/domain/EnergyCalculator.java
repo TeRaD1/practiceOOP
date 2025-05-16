@@ -1,4 +1,4 @@
-package domain;
+package ex2.domain;
 
 /**
  * Клас {@code EnergyCalculator} використовується для обчислення

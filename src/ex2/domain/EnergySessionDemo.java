@@ -1,4 +1,4 @@
-package domain;
+package ex2.domain;
 
 import java.io.*;
 import java.util.Scanner;
